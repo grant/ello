@@ -1,0 +1,30 @@
+{
+  "name": "ello",
+  "version": "0.0.0",
+  "description": "The unofficial Ello API",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "~0.17.0",
+    "request": "^2.44.0"
+  },
+  "devDependencies": {
+    "should": "^4.0.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/grant/ello.git"
+  },
+  "keywords": [
+    "ello",
+    "api"
+  ],
+  "author": "Grant Timmerman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grant/ello/issues"
+  },
+  "homepage": "https://github.com/grant/ello"
+}
