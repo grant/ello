@@ -25,7 +25,7 @@ Prints out:
   "numFollowers": 179,
   "numFollowing": 800,
   "numPosts": 3,
-  "url": {
+  "urls": {
     "followers": "https://ello.co/gct/followers",
     "following": "https://ello.co/gct/following",
     "profile": "https://ello.co/gct",

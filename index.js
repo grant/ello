@@ -34,12 +34,12 @@ var ello = function (username, cb) {
     var profile_image = 'http:' + $('.avatar--large').attr('style').match(/'(.*?)'/)[1];
 
     // Structure the data
-    data.url = {};
-    data.url.profile = DOMAIN + '/' + username;
-    data.url.following = DOMAIN + $profileDeetLinks.eq(1).attr('href');
-    data.url.followers = DOMAIN + $profileDeetLinks.eq(2).attr('href');
-    data.url.profile_links = profileLinks;
-    data.url.profile_image = profile_image;
+    data.urls = {};
+    data.urls.profile = DOMAIN + '/' + username;
+    data.urls.following = DOMAIN + $profileDeetLinks.eq(1).attr('href');
+    data.urls.followers = DOMAIN + $profileDeetLinks.eq(2).attr('href');
+    data.urls.profile_links = profileLinks;
+    data.urls.profile_image = profile_image;
 
     data.name = name;
     data.numPosts = numPosts;
