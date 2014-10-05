@@ -3,7 +3,7 @@
 The unofficial Ello API
 
 ```js
-npm install ello --save
+npm install ello
 ```
 
 ## example
